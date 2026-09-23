@@ -3,83 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <title>Petrichor, Calm Sounds for Sleep & Focus</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="description" content="Petrichor is a calming sounds app for sleep, focus, and quiet moments. Layer rainfall, fireplaces, oceans, and more. No subscription.">
-<style>
-        /* ac-no-horizontal-scroll v1 */
-        html, body {
-            overflow-x: clip;
-            max-width: 100%;
-        }
-        img, video, iframe {
-            max-width: 100%;
-            height: auto;
-        }
-        pre, table {
-            max-width: 100%;
-            overflow-x: auto;
-        }
-
-  :root {
-    --bg: #0F1A2E;
-    --bg-2: #1A2848;
-    --fg: #F4E4C1;
-    --fg-dim: rgba(244, 228, 193, 0.65);
-    --accent: #E8B38F;
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://corvusdevs.github.io/petrichor/">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Petrichor, Calm Sounds for Sleep &amp; Focus">
+<meta property="og:description" content="Build a personal soundscape from rain, ocean, café, fireplace, and noise.">
+<meta property="og:url" content="https://corvusdevs.github.io/petrichor/">
+<meta property="og:image" content="https://corvusdevs.github.io/petrichor/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Petrichor",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "iOS, iPadOS, macOS",
+  "description": "A calming sounds app for sleep, focus, and quiet moments. Layer rainfall, fireplaces, oceans, cafés, and noise.",
+  "image": "https://corvusdevs.github.io/petrichor/og-image.png",
+  "url": "https://corvusdevs.github.io/petrichor/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorvusDevs"
   }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html, body { background: linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%); color: var(--fg); min-height: 100vh; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", system-ui, sans-serif;
-    line-height: 1.6;
-    padding: 0 24px;
-  }
-  main {
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 120px 0 80px;
-  }
-  h1 {
-    font-family: ui-serif, Georgia, "Times New Roman", serif;
-    font-weight: 200;
-    font-size: 5rem;
-    letter-spacing: -0.03em;
-    line-height: 1;
-    margin-bottom: 0.4em;
-  }
-  .tagline {
-    font-size: 1.3rem;
-    color: var(--fg-dim);
-    margin-bottom: 4em;
-  }
-  .coming {
-    font-size: 0.95rem;
-    color: var(--fg-dim);
-    border-top: 1px solid rgba(244, 228, 193, 0.12);
-    padding-top: 2em;
-  }
-  footer {
-    margin-top: 6em;
-    font-size: 0.85rem;
-    color: rgba(244, 228, 193, 0.4);
-  }
-  footer a { color: inherit; }
-
-        /* ac-footer-mobile v1 */
-        @media (max-width: 720px) {
-            body { min-height: 0; }
-            footer { padding-bottom: 24px; padding-top: 24px; }
-        }
-</style>
+}
+</script>
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
-<main>
-  <h1>Petrichor</h1>
-  <p class="tagline">Calm sounds for sleep and focus.</p>
-  <p class="coming">Coming soon to the App Store for iPhone, iPad, and Mac.</p>
-  <footer>
-    <p>© 2026 CorvusDevs · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></p>
-  </footer>
+<nav aria-label="Main navigation">
+  <a class="nav-brand" href="index.html">Petrichor</a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="var o=document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',o);">Menu</button>
+  <ul class="nav-links"><li><a href="support.html">Support</a></li><li><a href="privacy.html">Privacy</a></li></ul>
+</nav>
+<main class="shell">
+  <section class="hero" aria-labelledby="page-title">
+    <div>
+      <p class="eyebrow">Soundscapes for quiet moments</p>
+      <h1 id="page-title">Petrichor</h1>
+      <p>Layer rain, ocean, café, fireplace, and noise into a soundscape that is yours. Animated worlds respond gently while you sleep, focus, or simply take a pause.</p>
+    </div>
+    <img class="hero-art" src="apple-touch-icon.png" width="180" height="180" alt="Petrichor app icon, a luminous water droplet on midnight blue">
+  </section>
+  <section class="features" aria-label="Petrichor highlights">
+    <div class="feature"><strong>Layer your soundscape</strong>Fine-tune individual sounds and keep the mix that feels right.</div>
+    <div class="feature"><strong>Scenes with atmosphere</strong>Rain, water, and fire visuals move with calm, deliberate detail.</div>
+    <div class="feature"><strong>Private by default</strong>Your mixes and settings stay on your device. No account, ads, or cloud sync.</div>
+  </section>
 </main>
+<footer>© 2026 CorvusDevs · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></footer>
 </body>
 </html>
